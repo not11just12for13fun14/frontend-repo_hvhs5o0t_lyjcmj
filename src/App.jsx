@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
@@ -55,6 +57,16 @@ function App() {
                 <h3 className="font-semibold text-white mb-1">Refine and iterate</h3>
                 <p className="text-blue-200/80 text-sm">Continue the conversation to add features and make changes</p>
               </div>
+            </div>
+
+            {/* CTA */}
+            <div className="mt-8 text-center">
+              <Link
+                to="/distributor"
+                className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+              >
+                Become a Distributor
+              </Link>
             </div>
           </div>
 
