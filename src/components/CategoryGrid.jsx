@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 
 const CATEGORIES = [
-  { id: 'watches', name: 'Watches', image: 'https://images.unsplash.com/photo-1518544801976-3e188ea47b1d?q=80&w=1600&auto=format&fit=crop' },
-  { id: 'jewelry', name: 'Jewelry', image: 'https://images.unsplash.com/photo-1520962918287-7448c2878f65?q=80&w=1600&auto=format&fit=crop' },
+  { id: 'watches', name: 'Watches', image: 'https://images.unsplash.com/photo-1609587312208-cea54be969e7?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxXYXRjaGVzfGVufDB8MHx8fDE3NjM1MjQ4Njd8MA&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80' },
+  { id: 'jewelry', name: 'Jewelry', image: 'https://images.unsplash.com/photo-1609587312208-cea54be969e7?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxXYXRjaGVzfGVufDB8MHx8fDE3NjM1MjQ4Njd8MA&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80' },
   { id: 'holidays', name: 'Holidays', image: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=1600&auto=format&fit=crop' },
   { id: 'home', name: 'Home Living', image: 'https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?q=80&w=1600&auto=format&fit=crop' },
-  { id: 'health', name: 'Health', image: 'https://images.unsplash.com/photo-1510626176961-4b57d4fbad43?q=80&w=1600&auto=format&fit=crop' },
+  { id: 'health', name: 'Health', image: 'https://images.unsplash.com/photo-1609587312208-cea54be969e7?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxXYXRjaGVzfGVufDB8MHx8fDE3NjM1MjQ4Njd8MA&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80' },
 ]
 
 export default function CategoryGrid() {
